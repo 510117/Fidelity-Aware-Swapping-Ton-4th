@@ -76,7 +76,7 @@ int main(){
     default_setting["swap_prob"] = 0.9;
     default_setting["fidelity_threshold"] = 0.5;
     default_setting["entangle_time"] = 0.00025;
-    default_setting["entangle_prob"] = 0.01;
+    default_setting["entangle_prob"] = 1e-6;
 
     map<string, vector<double>> change_parameter;
     change_parameter["request_cnt"] = {10, 30, 50, 70, 90};
